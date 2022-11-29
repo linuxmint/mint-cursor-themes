@@ -1,0 +1,27 @@
+#!/bin/sh
+# postinst script
+# see: dh_installdeb(1)
+
+set -e
+
+case "$1" in
+    configure)
+
+    update-alternatives \
+        --install /usr/share/icons/default/index.theme x-cursor-theme \
+        /usr/share/icons/Bibata-Modern-Classic/cursor.theme 110
+
+    ;;
+    abort-upgrade|abort-remove|abort-deconfigure)
+
+    ;;
+    triggered)
+
+    ;;
+    *)
+        echo "postinst called with unknown argument \`$1'" >&2
+        exit 1
+    ;;
+esac
+
+exit 0
