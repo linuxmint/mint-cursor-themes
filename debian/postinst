@@ -11,6 +11,34 @@ case "$1" in
         --install /usr/share/icons/default/index.theme x-cursor-theme \
         /usr/share/icons/Bibata-Modern-Classic/cursor.theme 110
 
+    update-alternatives \
+        --install /usr/share/icons/default/index.theme x-cursor-theme \
+        /usr/share/icons/Bibata-Modern-Ice/cursor.theme 105
+
+    update-alternatives \
+        --install /usr/share/icons/default/index.theme x-cursor-theme \
+        /usr/share/icons/Bibata-Original-Classic/cursor.theme 105
+
+    update-alternatives \
+        --install /usr/share/icons/default/index.theme x-cursor-theme \
+        /usr/share/icons/Bibata-Original-Ice/cursor.theme 105
+
+    update-alternatives \
+        --install /usr/share/icons/default/index.theme x-cursor-theme \
+        /usr/share/icons/GoogleDot-Black/cursor.theme 105
+
+    update-alternatives \
+        --install /usr/share/icons/default/index.theme x-cursor-theme \
+        /usr/share/icons/GoogleDot-White/cursor.theme 105
+
+    update-alternatives \
+        --install /usr/share/icons/default/index.theme x-cursor-theme \
+        /usr/share/icons/XCursor-Pro-Dark/cursor.theme 105
+
+    update-alternatives \
+        --install /usr/share/icons/default/index.theme x-cursor-theme \
+        /usr/share/icons/XCursor-Pro-Light/cursor.theme 105
+
     ;;
     abort-upgrade|abort-remove|abort-deconfigure)
 
