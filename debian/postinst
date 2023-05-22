@@ -1,5 +1,5 @@
 #!/bin/sh
-# postinst script
+# postinst script for mint-cursor-themes
 # see: dh_installdeb(1)
 
 set -e
@@ -51,5 +51,7 @@ case "$1" in
         exit 1
     ;;
 esac
+
+#DEBHELPER#
 
 exit 0

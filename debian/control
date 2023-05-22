@@ -2,10 +2,11 @@ Source: mint-cursor-themes
 Section: gnome
 Priority: optional
 Maintainer: Linux Mint <root@linuxmint.com>
-Build-Depends: debhelper (>= 9)
-Standards-Version: 3.9.5
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.5.1
 
 Package: mint-cursor-themes
 Architecture: all
+Depends: ${misc:Depends}
 Description: Linux Mint Cursor themes
- Linux Mint Cursor themes.
+ Modern Cursor themes for Linux Mint.

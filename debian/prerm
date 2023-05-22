@@ -1,5 +1,5 @@
 #!/bin/sh
-# prerm script for ldm-themes
+# prerm script for mint-cursor-themes
 #
 # see: dh_installdeb(1)
 
@@ -27,5 +27,7 @@ case "$1" in
         exit 1
     ;;
 esac
+
+#DEBHELPER#
 
 exit 0
