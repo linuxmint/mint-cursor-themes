@@ -1,3 +1,9 @@
+mint-cursor-themes (1.0.2) victoria; urgency=medium
+
+  * 1.0.2
+
+ -- Clement Lefebvre <root@linuxmint.com>  Mon, 05 Jun 2023 14:11:37 +0100
+
 mint-cursor-themes (1.0.1) vera; urgency=medium
 
   * Add optional themes to alternatives system
